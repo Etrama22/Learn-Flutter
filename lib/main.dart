@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
                 TitleSection(
                     name: 'Oeschinen Lake Campground',
                     location: 'Kandersteg, Switzerland'),
+                ButtonSection(),
               ]),
             )));
   }
