@@ -16,6 +16,9 @@ class MyApp extends StatelessWidget {
             ),
             body: const SingleChildScrollView(
               child: Column(children: [
+                ImageSection(
+                  image: 'images/lake.jpg',
+                ),
                 TitleSection(
                     name: 'Oeschinen Lake Campground',
                     location: 'Kandersteg, Switzerland'),
