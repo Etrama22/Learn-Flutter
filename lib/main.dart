@@ -17,22 +17,22 @@ class MyApp extends StatelessWidget {
             body: const SingleChildScrollView(
               child: Column(children: [
                 ImageSection(
-                  image: 'images/lake.jpg',
+                  image: 'images/krakal.jpeg',
                 ),
                 TitleSection(
-                    name: 'Oeschinen Lake Campground',
-                    location: 'Kandersteg, Switzerland'),
+                    name: 'Pantai Krakal', location: 'Yogyakarta, Indonesia'),
                 ButtonSection(),
                 TextSection(
-                  description:
-                      'Lake Oeschinen lies at the foot of the Blüemlisalp in the '
-                      'Bernese Alps. Situated 1,578 meters above sea level, it '
-                      'is one of the larger Alpine Lakes. A gondola ride from '
-                      'Kandersteg, followed by a half-hour walk through pastures '
-                      'and pine forest, leads you to the lake, which warms to 20 '
-                      'degrees Celsius in the summer. Activities enjoyed here '
-                      'include rowing, and riding the summer toboggan run.',
-                )
+                    description: 'Pantai Krakal adalah sebuah pantai yang indah'
+                        'terletak di Provinsi Daerah Istimewa Yogyakarta,'
+                        'Indonesia. Pantai ini terkenal karena pasir putihnya'
+                        'yang lembut, airnya yang jernih, serta batu-batu karang'
+                        'yang menjulang di sekitarnya. Lokasinya berada sekitar'
+                        '36 km dari pusat Kota Yogyakarta, di Kabupaten Gunung Kidul.'
+                        'Krakal menawarkan pemandangan yang menakjubkan, cocok untuk'
+                        'berjemur, berenang, atau hanya menikmati keindahan alamnya.'
+                        'Pantai ini menjadi salah satu destinasi wisata favorit bagi'
+                        'wisatawan yang mencari ketenangan dan keindahan alam.,')
               ]),
             )));
   }
